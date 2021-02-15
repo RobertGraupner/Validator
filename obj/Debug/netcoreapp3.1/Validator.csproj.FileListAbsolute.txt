@@ -1,0 +1,4 @@
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.csprojAssemblyReference.cache
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.AssemblyInfoInputs.cache
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.AssemblyInfo.cs
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.csproj.CoreCompileInputs.cache

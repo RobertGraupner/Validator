@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C26A564E-CA42-4AC3-8865-6EE3E71D62D4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Validator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IdentificationNumberValidator.cs">
+    <Files>
+      <File FileName="Program.cs" Line="5" Column="18" />
+      <File FileName="IdentificationNumberValidator.cs" Line="8" Column="10" />
+      <File FileName="PeselValidator.cs" />
+      <File FileName="NipValidator.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Validator" expanded="True">
+            <Node name="Validator" expanded="True">
+              <Node name="IdentificationNumberValidator.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
