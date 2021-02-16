@@ -2,3 +2,11 @@
 /Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.AssemblyInfoInputs.cache
 /Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.AssemblyInfo.cs
 /Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.csproj.CoreCompileInputs.cache
+/Users/robert/Projects_C#/Validator/bin/Debug/netcoreapp3.1/Validator.deps.json
+/Users/robert/Projects_C#/Validator/bin/Debug/netcoreapp3.1/Validator.runtimeconfig.json
+/Users/robert/Projects_C#/Validator/bin/Debug/netcoreapp3.1/Validator.runtimeconfig.dev.json
+/Users/robert/Projects_C#/Validator/bin/Debug/netcoreapp3.1/Validator.dll
+/Users/robert/Projects_C#/Validator/bin/Debug/netcoreapp3.1/Validator.pdb
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.dll
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.pdb
+/Users/robert/Projects_C#/Validator/obj/Debug/netcoreapp3.1/Validator.genruntimeconfig.cache

@@ -3,31 +3,17 @@ namespace Validator
 {
     public class PeselValidator : IdentificationNumberValidator
     {
-        int[] weights = { 1, 3, 7, 9, 1, 3, 7, 9, 1, 3 };
-
-        public bool ValidatePesel(string validateNumber)
+        protected override int[] GetWeights()
         {
-            bool valid = false;
-            try
-            {
-                if (validateNumber.Length == 11)
-                {
-                    valid = CountSum(validateNumber).Equals(validateNumber[10].ToString());
-                }
-            }
-            catch (Exception)
-            {
-                valid = false;
-            }
-            return valid;
-
+            return new int[] { 1, 3, 7, 9, 1, 3, 7, 9, 1, 3};
         }
-
-        public override string CountSum(string validateNumber)
+        protected override int GetNumberLenght()
         {
-
-            int modulo = sum % 10;
-            return modulo == 0 ? modulo.ToString() : (10 - modulo).ToString();
+            return 11;
+        }
+        protected override int GetnumberControlModuloDigit()
+        {
+            return 10;
         }
     }
 }
