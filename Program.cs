@@ -17,11 +17,13 @@ namespace Validator
 
             if (validateNumber.Length == 11)
             {
+               Console.WriteLine("You enter a PESEL number");
                PeselValidator peselValidator = new PeselValidator();
                Console.WriteLine(peselValidator.Validate(validateNumber) ? "Pesel number correct" : "Pesel number incorrect");
             }
             else if (validateNumber.Length == 10)
             {
+                Console.WriteLine("You enter a NIP number");
                 NipValidator nipValidator = new NipValidator();
                 Console.WriteLine(nipValidator.Validate(validateNumber) ? "Nip number correct" : "Nip number incorect");
             }

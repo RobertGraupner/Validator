@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{C26A564E-CA42-4AC3-8865-6EE3E71D62D4}|Default">
   <MonoDevelop.Ide.ItemProperties.Validator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NipValidator.cs">
     <Files>
-      <File FileName="Program.cs" Line="3" Column="20" />
-      <File FileName="IdentificationNumberValidator.cs" Line="24" Column="16" />
-      <File FileName="PeselValidator.cs" Line="8" Column="60" />
-      <File FileName="NipValidator.cs" Line="20" Column="1" />
+      <File FileName="Program.cs" Line="7" Column="34" />
+      <File FileName="IdentificationNumberValidator.cs" Line="21" Column="51" />
+      <File FileName="PeselValidator.cs" Line="24" Column="1" />
+      <File FileName="NipValidator.cs" Line="23" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Validator" expanded="True">
             <Node name="Validator" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="NipValidator.cs" selected="True" />
             </Node>
           </Node>
         </State>

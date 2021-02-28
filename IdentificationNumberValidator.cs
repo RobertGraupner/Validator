@@ -6,23 +6,19 @@ namespace Validator
         protected abstract int[] GetWeights();
         protected abstract int GetNumberLenght();
         protected abstract int GetnumberControlModuloDigit();
+        protected abstract int ModuloResult(int modulo);
 
         public string CountSum(string validateNumber)
         {
             int sum = 0;
+
             for (int i = 0; i < GetWeights().Length; i++)
             {
                 sum += GetWeights()[i] * int.Parse(validateNumber[i].ToString());
             }
             int modulo = sum % GetnumberControlModuloDigit();
-            if (GetNumberLenght() == 11)
-            {
-                return modulo == 0 ? modulo.ToString() : (10 - modulo).ToString();
-            }
-            else
-            {
-                return modulo.ToString();
-            }
+
+            return ModuloResult(modulo).ToString();
         }
 
         public bool Validate(string validateNumber)

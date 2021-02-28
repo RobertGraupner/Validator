@@ -15,5 +15,9 @@ namespace Validator
         {
             return 10;
         }
+        protected override int ModuloResult(int modulo)
+        {
+            return modulo == 0 ? modulo : (10 - modulo);
+        }
     }
 }

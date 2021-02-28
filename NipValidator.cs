@@ -5,7 +5,7 @@ namespace Validator
     {
         protected override int[] GetWeights()
         {
-            return new int[] { 6, 5, 7, 2, 3, 4, 5, 6, 7};
+            return new int[] { 6, 5, 7, 2, 3, 4, 5, 6, 7 };
         }
         protected override int GetNumberLenght()
         {
@@ -14,6 +14,10 @@ namespace Validator
         protected override int GetnumberControlModuloDigit()
         {
             return 11;
+        }
+        protected override int ModuloResult(int modulo)
+        {
+            return modulo;
         }
     }
 }
